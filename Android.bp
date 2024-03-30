@@ -54,11 +54,11 @@ android_library {
     srcs: [
         "src/**/*.java",
         "src/**/*.kt",
-        "Evolver/src/**/*.java",
-        "Evolver/src/**/*.kt",
+        "Devolver/src/**/*.java",
+        "Devolver/src/**/*.kt",
     ],
 
-    aaptflags: ["--extra-packages com.evolution.settings"],
+    aaptflags: ["--extra-packages com.devolution.settings"],
     exclude_srcs: [
         "src/com/android/settings/biometrics/fingerprint2/shared/**/*.kt",
     ],
@@ -67,7 +67,7 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
-        "Evolver/res",
+        "Devolver/res",
         "TouchGestures/res"
     ],
     static_libs: [

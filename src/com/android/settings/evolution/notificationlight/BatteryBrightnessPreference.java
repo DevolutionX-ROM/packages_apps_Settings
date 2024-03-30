@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.evolution.notificationlight;
+package com.android.settings.devolution.notificationlight;
 
 import android.content.ContentResolver;
 import android.content.Context;

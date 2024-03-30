@@ -63,8 +63,8 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexableRaw;
 import com.android.settingslib.widget.LayoutPreference;
 
-import com.evolution.settings.preference.CustomDialogPreference;
-import com.evolution.settings.preference.SystemSettingSwitchPreference;
+import com.devolution.settings.preference.CustomDialogPreference;
+import com.devolution.settings.preference.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.Arrays;

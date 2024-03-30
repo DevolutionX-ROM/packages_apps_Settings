@@ -44,7 +44,7 @@ import com.android.settingslib.widget.FooterPreference;
 import com.android.settingslib.widget.IllustrationPreference;
 import com.android.settingslib.widget.SelectorWithWidgetPreference;
 
-import com.android.internal.util.evolution.EvolutionUtils;
+import com.android.internal.util.devolution.DevolutionUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -178,7 +178,7 @@ public class ScreenResolutionFragment extends RadioButtonPickerFragment {
             /** Apply the resolution change. */
             Log.i(TAG, "setUserPreferredDisplayMode: " + mode);
             mDefaultDisplay.setUserPreferredDisplayMode(mode);
-            EvolutionUtils.restartSystemUi(getContext());
+            DevolutionUtils.restartSystemUi(getContext());
         } catch (Exception e) {
             Log.e(TAG, "setUserPreferredDisplayMode() failed", e);
             return;

@@ -96,7 +96,7 @@
         settings:controller="com.android.settings.notification.AlarmVolumePreferenceController"/>
 
     <!-- Increasing ring -->
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
+    <com.devolution.settings.preference.SystemSettingSwitchPreference
         android:key="increasing_ring"
         android:title="@string/increasing_ring_volume_option_title"
         android:order="-136"
@@ -257,7 +257,7 @@
         android:order="-30"/>
 
     <!-- Screenshot sound -->
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
+    <com.devolution.settings.preference.SystemSettingSwitchPreference
         android:key="screenshot_shutter_sound"
         android:title="@string/screenshot_shutter_sound_title"
         android:defaultValue="true"
@@ -295,7 +295,7 @@
         android:summary="%s"
         android:order="-10"/>
 
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
+    <com.devolution.settings.preference.SystemSettingSwitchPreference
         android:key="show_app_volume"
         android:title="@string/app_volume_title"
         android:summary="@string/app_volume_summary"

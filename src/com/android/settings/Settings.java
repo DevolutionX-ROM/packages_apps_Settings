@@ -484,9 +484,9 @@ public class Settings extends SettingsActivity {
     public static class ScreenTimeoutActivity extends SettingsActivity { /* empty */ }
 
     /**
-     * Activity for The Evolver
+     * Activity for The Devolver
      */
-    public static class EvolutionSettingsActivity extends SettingsActivity {}
+    public static class DevolutionSettingsActivity extends SettingsActivity {}
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
     public static class SmartPixelsActivity extends SettingsActivity {}
     public static class WirelessDebuggingActivity extends SettingsActivity { /* empty */ }

@@ -23,7 +23,7 @@
         android:key="sleep_mode_footer"
         android:title="@string/sleep_mode_display_text" />
 
-    <com.evolution.settings.preference.CustomSecureSettingMainSwitchPreference
+    <com.devolution.settings.preference.CustomSecureSettingMainSwitchPreference
         android:defaultValue="false"
         android:key="sleep_mode_enabled"
         android:title="@string/night_display_activation_on_manual" />
@@ -47,37 +47,37 @@
         android:key="sleep_mode_toggles"
         android:title="@string/sleep_mode_toggles_title">
 
-        <com.evolution.settings.preference.SecureSettingSwitchPreference
+        <com.devolution.settings.preference.SecureSettingSwitchPreference
             android:key="sleep_mode_wifi_toggle"
             android:title="@string/sleep_mode_wifi_toggle_title"
             android:summary="@string/sleep_mode_wifi_toggle_summary"
             android:defaultValue="true" />
 
-        <com.evolution.settings.preference.SecureSettingSwitchPreference
+        <com.devolution.settings.preference.SecureSettingSwitchPreference
             android:key="sleep_mode_bluetooth_toggle"
             android:title="@string/sleep_mode_bluetooth_toggle_title"
             android:summary="@string/sleep_mode_bluetooth_toggle_summary"
             android:defaultValue="true" />
 
-        <com.evolution.settings.preference.SecureSettingSwitchPreference
+        <com.devolution.settings.preference.SecureSettingSwitchPreference
             android:key="sleep_mode_cellular_toggle"
             android:title="@string/sleep_mode_cellular_toggle_title"
             android:summary="@string/sleep_mode_cellular_toggle_summary"
             android:defaultValue="true" />
 
-        <com.evolution.settings.preference.SecureSettingSwitchPreference
+        <com.devolution.settings.preference.SecureSettingSwitchPreference
             android:key="sleep_mode_location_toggle"
             android:title="@string/sleep_mode_location_toggle_title"
             android:summary="@string/sleep_mode_location_toggle_summary"
             android:defaultValue="true" />
 
-        <com.evolution.settings.preference.SecureSettingSwitchPreference
+        <com.devolution.settings.preference.SecureSettingSwitchPreference
             android:key="sleep_mode_sensors_toggle"
             android:title="@string/sleep_mode_sensors_toggle_title"
             android:summary="@string/sleep_mode_sensors_toggle_summary"
             android:defaultValue="true" />
 
-        <com.evolution.settings.preference.SecureSettingListPreference
+        <com.devolution.settings.preference.SecureSettingListPreference
             android:key="sleep_mode_ringer_mode"
             android:title="@string/sleep_mode_ringer_title"
             android:entries="@array/sleep_mode_ringer_entries"

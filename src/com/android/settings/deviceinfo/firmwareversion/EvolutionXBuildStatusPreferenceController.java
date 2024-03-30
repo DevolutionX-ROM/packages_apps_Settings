@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 Evolution X
+ * Copyright (C) 2019-2022 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,13 +22,13 @@ import android.os.SystemProperties;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class EvolutionXBuildStatusPreferenceController extends BasePreferenceController {
+public class DevolutionXBuildStatusPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "EvolutionXBuildStatusCtrl";
+    private static final String TAG = "DevolutionXBuildStatusCtrl";
 
     private String mBuildStatus;
 
-    public EvolutionXBuildStatusPreferenceController(Context context, String key) {
+    public DevolutionXBuildStatusPreferenceController(Context context, String key) {
         super(context, key);
         mBuildStatus = mContext.getResources().getString(R.string.build_status_summary);
     }

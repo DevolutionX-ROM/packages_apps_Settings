@@ -38,11 +38,11 @@ import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.search.SearchIndexable;
-import com.evolution.settings.preference.CustomDialogPreference;
+import com.devolution.settings.preference.CustomDialogPreference;
 
 import com.android.internal.custom.health.HealthInterface;
-import com.evolution.settings.preference.SystemSettingDropDownPreference;
-import com.evolution.settings.preference.SystemSettingMainSwitchPreference;
+import com.devolution.settings.preference.SystemSettingDropDownPreference;
+import com.devolution.settings.preference.SystemSettingMainSwitchPreference;
 import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;

@@ -82,7 +82,7 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
             "Pro tip: Stop doing this",
             "Perhaps this Android thing is not for you...",
             "Don't you have anything better to do?",
-            "Looks like you're evolving... Just BACKWARDS!",
+            "Looks like you're devolving... Just BACKWARDS!",
             "This won't make you look cooler to your friends",
             "Go back to your stock ROM",
             "FBI! OPEN UP!",

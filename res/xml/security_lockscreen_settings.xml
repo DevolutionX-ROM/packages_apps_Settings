@@ -95,7 +95,7 @@
             settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController"
             settings:userRestriction="no_ambient_display" />
 
-        <com.evolution.settings.preference.SecureSettingSwitchPreference
+        <com.devolution.settings.preference.SecureSettingSwitchPreference
             android:key="doze_on_charge"
             android:title="@string/doze_on_charge_title"
             android:summary="@string/doze_on_charge_summary"
@@ -122,7 +122,7 @@
             settings:searchable="false"
             settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
-        <com.evolution.settings.preference.SecureSettingSwitchPreference
+        <com.devolution.settings.preference.SecureSettingSwitchPreference
             android:key="screen_off_udfps_enabled"
             android:title="@string/ambient_display_screen_off_udfps_title"
             android:summary="@string/ambient_display_screen_off_udfps_summary"

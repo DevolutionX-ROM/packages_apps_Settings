@@ -30,7 +30,7 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.CustomSeekBarPreference;
+import com.devolution.settings.preference.CustomSeekBarPreference;
 
 /**
  * volume steps settings under sound

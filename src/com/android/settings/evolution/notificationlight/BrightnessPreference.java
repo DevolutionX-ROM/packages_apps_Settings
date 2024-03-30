@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.evolution.notificationlight;
+package com.android.settings.devolution.notificationlight;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -36,9 +36,9 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
 
-import com.android.internal.evolution.notification.LightsCapabilities;
-import com.android.internal.evolution.notification.LineageNotification;
-import com.evolution.settings.preference.CustomDialogPreference;
+import com.android.internal.devolution.notification.LightsCapabilities;
+import com.android.internal.devolution.notification.LineageNotification;
+import com.devolution.settings.preference.CustomDialogPreference;
 import com.android.settings.R;
 
 public class BrightnessPreference extends CustomDialogPreference<AlertDialog>

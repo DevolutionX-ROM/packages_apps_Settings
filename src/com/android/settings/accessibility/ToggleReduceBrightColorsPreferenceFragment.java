@@ -18,11 +18,11 @@ package com.android.settings.accessibility;
 
 import static com.android.internal.accessibility.AccessibilityShortcutController.REDUCE_BRIGHT_COLORS_COMPONENT_NAME;
 import static com.android.internal.accessibility.AccessibilityShortcutController.REDUCE_BRIGHT_COLORS_TILE_SERVICE_COMPONENT_NAME;
-import static com.android.internal.util.evolution.AutoSettingConsts.MODE_DISABLED;
-import static com.android.internal.util.evolution.AutoSettingConsts.MODE_NIGHT;
-import static com.android.internal.util.evolution.AutoSettingConsts.MODE_TIME;
-import static com.android.internal.util.evolution.AutoSettingConsts.MODE_MIXED_SUNSET;
-import static com.android.internal.util.evolution.AutoSettingConsts.MODE_MIXED_SUNRISE;
+import static com.android.internal.util.devolution.AutoSettingConsts.MODE_DISABLED;
+import static com.android.internal.util.devolution.AutoSettingConsts.MODE_NIGHT;
+import static com.android.internal.util.devolution.AutoSettingConsts.MODE_TIME;
+import static com.android.internal.util.devolution.AutoSettingConsts.MODE_MIXED_SUNSET;
+import static com.android.internal.util.devolution.AutoSettingConsts.MODE_MIXED_SUNRISE;
 import static com.android.settings.accessibility.AccessibilityStatsLogUtils.logAccessibilityServiceEnabled;
 
 import android.app.settings.SettingsEnums;

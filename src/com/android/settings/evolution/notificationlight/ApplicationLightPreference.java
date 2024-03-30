@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.evolution.notificationlight;
+package com.android.settings.devolution.notificationlight;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -32,9 +32,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.preference.PreferenceViewHolder;
 
-import com.android.internal.evolution.notification.LightsCapabilities;
+import com.android.internal.devolution.notification.LightsCapabilities;
 
-import com.evolution.settings.preference.CustomDialogPreference;
+import com.devolution.settings.preference.CustomDialogPreference;
 import com.android.settings.R;
 
 public class ApplicationLightPreference extends CustomDialogPreference<LightSettingsDialog>

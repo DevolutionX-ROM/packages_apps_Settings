@@ -15,11 +15,11 @@
  */
 package com.android.settings.accessibility;
 
-import static com.android.internal.util.evolution.AutoSettingConsts.MODE_DISABLED;
-import static com.android.internal.util.evolution.AutoSettingConsts.MODE_NIGHT;
-import static com.android.internal.util.evolution.AutoSettingConsts.MODE_TIME;
-import static com.android.internal.util.evolution.AutoSettingConsts.MODE_MIXED_SUNSET;
-import static com.android.internal.util.evolution.AutoSettingConsts.MODE_MIXED_SUNRISE;
+import static com.android.internal.util.devolution.AutoSettingConsts.MODE_DISABLED;
+import static com.android.internal.util.devolution.AutoSettingConsts.MODE_NIGHT;
+import static com.android.internal.util.devolution.AutoSettingConsts.MODE_TIME;
+import static com.android.internal.util.devolution.AutoSettingConsts.MODE_MIXED_SUNSET;
+import static com.android.internal.util.devolution.AutoSettingConsts.MODE_MIXED_SUNRISE;
 
 import android.app.TimePickerDialog;
 import android.content.ContentResolver;
@@ -39,7 +39,7 @@ import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.SecureSettingListPreference;
+import com.devolution.settings.preference.SecureSettingListPreference;
 
 import java.time.format.DateTimeFormatter;
 import java.time.LocalTime;

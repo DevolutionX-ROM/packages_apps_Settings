@@ -31,7 +31,7 @@ import com.android.settings.R;
 
 import com.android.internal.custom.hardware.LiveDisplayManager;
 
-import com.evolution.settings.preference.CustomDialogPreference;
+import com.devolution.settings.preference.CustomDialogPreference;
 
 /**
  * Special preference type that allows configuration of Color settings

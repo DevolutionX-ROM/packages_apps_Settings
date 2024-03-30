@@ -178,8 +178,8 @@
             android:order="24"
             android:title="@string/notification_light_title"
             android:summary="@string/notification_light_summary"
-            android:fragment="com.android.settings.evolution.notificationlight.NotificationLightSettings"
-            settings:controller="com.android.settings.evolution.notificationlight.NotificationLightPreferenceController" />
+            android:fragment="com.android.settings.devolution.notificationlight.NotificationLightSettings"
+            settings:controller="com.android.settings.devolution.notificationlight.NotificationLightPreferenceController" />
 
         <SwitchPreferenceCompat
             android:key="notification_assistant"
@@ -197,8 +197,8 @@
             settings:controller="com.android.settings.notification.PoliteNotificationsPreferenceController" />
 
         <!-- Heads up -->
-        <com.evolution.settings.preference.GlobalSettingPrimarySwitchPreference
-            android:fragment="com.evolution.settings.fragments.HeadsUpSettings"
+        <com.devolution.settings.preference.GlobalSettingPrimarySwitchPreference
+            android:fragment="com.devolution.settings.fragments.HeadsUpSettings"
             android:key="heads_up_notifications_enabled"
             android:order="24"
             android:title="@string/notification_heads_up_title"

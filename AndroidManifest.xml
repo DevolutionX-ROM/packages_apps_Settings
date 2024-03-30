@@ -5126,12 +5126,12 @@
             android:authorities="${applicationId}.androidx-startup"
             tools:node="remove" />
 
-        <!-- The Evolver -->
-        <activity android:name="Settings$EvolutionSettingsActivity"
-                  android:label="@string/evolver_dashboard_title"
+        <!-- The Devolver -->
+        <activity android:name="Settings$DevolutionSettingsActivity"
+                  android:label="@string/devolver_dashboard_title"
                   android:exported="true">
             <intent-filter android:priority="1">
-                <action android:name="com.evolution.settings.EvolutionSettings" />
+                <action android:name="com.devolution.settings.DevolutionSettings" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
@@ -5140,18 +5140,18 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.order" android:value="-1"/>
             <meta-data android:name="com.android.settings.summary"
-                       android:resource="@string/evolver_dashboard_summary"/>
+                       android:resource="@string/devolver_dashboard_summary"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="com.evolution.settings.EvolutionSettings" />
+                       android:value="com.devolution.settings.DevolutionSettings" />
             <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
-                       android:value="@string/menu_key_evolver"/>
+                       android:value="@string/menu_key_devolver"/>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                        android:value="true" />
         </activity>
 
         <!-- Changelog Activity -->
-        <activity android:name="com.evolution.settings.fragments.about.ChangelogActivity"
-            android:label="@string/changelog_evolution_title"
+        <activity android:name="com.devolution.settings.fragments.about.ChangelogActivity"
+            android:label="@string/changelog_devolution_title"
             android:parentActivityName="com.android.settings"
             android:theme="@style/Theme.SubSettingsBase"
             android:exported="true">
@@ -5162,7 +5162,7 @@
         </activity>
 
         <activity
-            android:name="com.evolution.settings.fragments.uibench.JitterTestActivity"
+            android:name="com.devolution.settings.fragments.uibench.JitterTestActivity"
             android:theme="@style/Theme.SubSettingsBase"
             android:exported="true">
             <intent-filter>
@@ -5179,7 +5179,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="com.evolution.settings.fragments.HeadsUpSettings"/>
+                       android:value="com.devolution.settings.fragments.HeadsUpSettings"/>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                        android:value="true" />
         </activity>

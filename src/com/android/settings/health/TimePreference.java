@@ -27,7 +27,7 @@ import android.widget.TimePicker;
 import androidx.appcompat.app.AlertDialog;
 import androidx.preference.PreferenceViewHolder;
 
-import com.evolution.settings.preference.CustomDialogPreference;
+import com.devolution.settings.preference.CustomDialogPreference;
 import com.android.settings.R;
 
 import java.time.LocalTime;

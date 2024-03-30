@@ -33,7 +33,7 @@
         android:title="@string/auto_rotate_settings_primary_switch_title"
         settings:controller="com.android.settings.display.AutoRotatePreferenceController"/>
 
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
+    <com.devolution.settings.preference.SystemSettingSwitchPreference
         android:key="enable_floating_rotation_button"
         android:title="@string/enable_floating_rotation_button_title"
         android:defaultValue="true" />

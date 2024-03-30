@@ -33,14 +33,14 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import androidx.preference.Preference;
 
-import com.android.internal.util.evolution.EvolutionUtils;
+import com.android.internal.util.devolution.DevolutionUtils;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.flags.Flags;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.SystemSettingSwitchPreference;
+import com.devolution.settings.preference.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -85,7 +85,7 @@ public class VibrationSettings extends DashboardFragment
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mScrollFlingHapticFeedback) {
-            EvolutionUtils.restartApp(getLauncherPackage(), getActivity());
+            DevolutionUtils.restartApp(getLauncherPackage(), getActivity());
             return true;
         }
         return false;

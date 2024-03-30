@@ -38,7 +38,7 @@ import androidx.preference.PreferenceScreen;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.evolution.settings.preference.CustomSecureSettingMainSwitchPreference;
+import com.devolution.settings.preference.CustomSecureSettingMainSwitchPreference;
 
 
 import java.time.format.DateTimeFormatter;

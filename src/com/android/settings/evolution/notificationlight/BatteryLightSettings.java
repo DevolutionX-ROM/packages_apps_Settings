@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.evolution.notificationlight;
+package com.android.settings.devolution.notificationlight;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -32,16 +32,16 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 
-import com.android.internal.evolution.notification.LightsCapabilities;
+import com.android.internal.devolution.notification.LightsCapabilities;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.CustomDialogPreference;
-import com.evolution.settings.preference.SystemSettingMainSwitchPreference;
-import com.evolution.settings.preference.SystemSettingSwitchPreference;
+import com.devolution.settings.preference.CustomDialogPreference;
+import com.devolution.settings.preference.SystemSettingMainSwitchPreference;
+import com.devolution.settings.preference.SystemSettingSwitchPreference;
 
 import java.util.List;
 import java.util.UUID;

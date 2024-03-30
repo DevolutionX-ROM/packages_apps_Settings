@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2019 The LineageOS Project
- * Copyright (C) 2019-2021 The Evolution X Project
+ * Copyright (C) 2019-2021 The Devolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,13 +23,13 @@ import android.os.SystemProperties;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class EvolutionXBuildDatePreferenceController extends BasePreferenceController {
+public class DevolutionXBuildDatePreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "EvolutionXBuildDateCtrl";
+    private static final String TAG = "DevolutionXBuildDateCtrl";
 
     private static final String KEY_BUILD_DATE_PROP = "ro.build.date";
 
-    public EvolutionXBuildDatePreferenceController(Context context, String key) {
+    public DevolutionXBuildDatePreferenceController(Context context, String key) {
         super(context, key);
     }
 

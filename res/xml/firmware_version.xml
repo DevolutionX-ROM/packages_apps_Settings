@@ -21,12 +21,12 @@
     android:title="@string/about_settings"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Evolution X logo -->
+    <!-- Devolution X logo -->
     <com.android.settingslib.widget.LayoutPreference
-        android:key="evolution_logo"
-        android:layout="@layout/evolution_logo"
+        android:key="devolution_logo"
+        android:layout="@layout/devolution_logo"
         android:clickable="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXLogoPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DevolutionXLogoPreferenceController"/>
 
     <!-- Android version -->
     <Preference
@@ -37,14 +37,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Evolution X version -->
+    <!-- Devolution X version -->
     <Preference
-        android:key="evolution_x_version"
-        android:title="@string/evolution_x_version"
+        android:key="devolution_x_version"
+        android:title="@string/devolution_x_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:searchable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXVersionDetailPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DevolutionXVersionDetailPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
@@ -85,7 +85,7 @@
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildStatusPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DevolutionXBuildStatusPreferenceController"/>
 
     <!-- Build maintainer -->
     <Preference
@@ -93,7 +93,7 @@
         android:title="@string/build_maintainer"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildMaintainerPreferenceController">
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DevolutionXBuildMaintainerPreferenceController">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="@string/build_maintainer_donate_url"/>
@@ -106,7 +106,7 @@
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildDatePreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DevolutionXBuildDatePreferenceController"/>
 
     <!-- Build number -->
     <!--Preference

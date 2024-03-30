@@ -32,7 +32,7 @@ import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settings.notification.NotificationBackend;
 import com.android.settingslib.RestrictedSwitchPreference;
 
-import com.evolution.settings.preference.CustomSeekBarPreference;
+import com.devolution.settings.preference.CustomSeekBarPreference;
 
 public class CustomVibrationPreferenceController extends NotificationPreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {

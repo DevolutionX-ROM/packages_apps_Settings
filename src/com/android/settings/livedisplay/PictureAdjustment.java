@@ -33,7 +33,7 @@ import com.android.internal.custom.hardware.LiveDisplayManager;
 import com.android.settings.widget.IntervalSeekBar;
 import com.android.settings.R;
 
-import com.evolution.settings.preference.CustomDialogPreference;
+import com.devolution.settings.preference.CustomDialogPreference;
 
 import java.util.List;
 

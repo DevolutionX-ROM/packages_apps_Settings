@@ -22,14 +22,14 @@
     android:title="Settings">
 
     <com.android.settings.widget.HomepagePreference
-        android:fragment="com.evolution.settings.EvolutionSettings"
-        android:icon="@drawable/ic_settings_evolution"
-        android:key="top_level_evolver"
+        android:fragment="com.devolution.settings.DevolutionSettings"
+        android:icon="@drawable/ic_settings_devolution"
+        android:key="top_level_devolver"
         android:order="-160"
-        android:title="@string/evolver_dashboard_title"
-        android:summary="@string/evolver_dashboard_summary"
-        settings:highlightableMenuKey="@string/menu_key_evolver"
-        settings:controller="com.evolution.settings.TopLevelEvolutionSettingsPreferenceController"/>
+        android:title="@string/devolver_dashboard_title"
+        android:summary="@string/devolver_dashboard_summary"
+        settings:highlightableMenuKey="@string/menu_key_devolver"
+        settings:controller="com.devolution.settings.TopLevelDevolutionSettingsPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"

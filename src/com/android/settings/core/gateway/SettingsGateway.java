@@ -200,8 +200,8 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import com.evolution.settings.EvolutionSettings;
-import com.evolution.settings.fragments.HeadsUpSettings;
+import com.devolution.settings.DevolutionSettings;
+import com.devolution.settings.fragments.HeadsUpSettings;
 
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
 
@@ -387,7 +387,7 @@ public class SettingsGateway {
             BatteryInfoFragment.class.getName(),
             UserAspectRatioDetails.class.getName(),
             ScreenTimeoutSettings.class.getName(),
-            EvolutionSettings.class.getName(),
+            DevolutionSettings.class.getName(),
             HeadsUpSettings.class.getName(),
             WifiTetherClientManager.class.getName(),
             LiveDisplaySettings.class.getName(),
@@ -442,7 +442,7 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
-            Settings.EvolutionSettingsActivity.class.getName(),
+            Settings.DevolutionSettingsActivity.class.getName(),
             Settings.HeadsUpSettingsActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
             Settings.SleepModeActivity.class.getName(),

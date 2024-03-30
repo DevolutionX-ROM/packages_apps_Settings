@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.evolution.notificationlight;
+package com.android.settings.devolution.notificationlight;
 
 import android.app.Dialog;
 import android.content.ContentResolver;
@@ -40,10 +40,10 @@ import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.evolution.notification.LightsCapabilities;
-import com.evolution.settings.preference.CustomDialogPreference;
-import com.evolution.settings.preference.PackageListAdapter;
-import com.evolution.settings.preference.PackageListAdapter.PackageItem;
+import com.android.internal.devolution.notification.LightsCapabilities;
+import com.devolution.settings.preference.CustomDialogPreference;
+import com.devolution.settings.preference.PackageListAdapter;
+import com.devolution.settings.preference.PackageListAdapter.PackageItem;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -56,9 +56,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
-import com.evolution.settings.preference.SystemSettingSwitchPreference;
-import com.evolution.settings.preference.SystemSettingMainSwitchPreference;
-import com.android.internal.util.evolution.ColorUtils;
+import com.devolution.settings.preference.SystemSettingSwitchPreference;
+import com.devolution.settings.preference.SystemSettingMainSwitchPreference;
+import com.android.internal.util.devolution.ColorUtils;
 
 @SearchIndexable
 public class NotificationLightSettings extends SettingsPreferenceFragment implements

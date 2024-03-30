@@ -59,7 +59,7 @@
         android:fragment="com.android.settings.health.ChargingControlSettings"
         settings:controller="com.android.settings.health.ChargingControlPreferenceController" />
 
-    <com.evolution.settings.preference.SystemSettingPrimarySwitchPreference
+    <com.devolution.settings.preference.SystemSettingPrimarySwitchPreference
         android:key="battery_level_charge_alarm_enabled"
         android:title="@string/notification_battery_charge_level_title"
         android:summary="@string/notification_battery_charge_level_summary"
@@ -85,8 +85,8 @@
         android:key="battery_lights"
         android:title="@string/battery_light_title"
         android:summary="@string/battery_light_summary"
-        android:fragment="com.android.settings.evolution.notificationlight.BatteryLightSettings"
-        settings:controller="com.android.settings.evolution.notificationlight.BatteryLightPreferenceController" />
+        android:fragment="com.android.settings.devolution.notificationlight.BatteryLightSettings"
+        settings:controller="com.android.settings.devolution.notificationlight.BatteryLightPreferenceController" />
 
     <SwitchPreferenceCompat
         android:key="battery_percentage"

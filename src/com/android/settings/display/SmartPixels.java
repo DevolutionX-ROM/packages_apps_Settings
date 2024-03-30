@@ -43,7 +43,7 @@ public class SmartPixels extends DashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_smart_pixels;
+        return R.xml.devolution_settings_smart_pixels;
     }
 
     @Override

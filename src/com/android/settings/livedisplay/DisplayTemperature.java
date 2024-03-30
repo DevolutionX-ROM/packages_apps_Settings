@@ -33,7 +33,7 @@ import com.android.internal.util.custom.MathUtils;
 import com.android.internal.custom.hardware.LiveDisplayConfig;
 import com.android.internal.custom.hardware.LiveDisplayManager;
 
-import com.evolution.settings.preference.CustomDialogPreference;
+import com.devolution.settings.preference.CustomDialogPreference;
 
 /**
  * Preference for selection of color temperature range for LiveDisplay

@@ -221,7 +221,7 @@
             android:title="@string/tap_to_wake"
             android:summary="@string/tap_to_wake_summary"/>
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.devolution.settings.preference.SystemSettingSwitchPreference
             android:key="proximity_on_wake"
             android:title="@string/proximity_wake_title"
             android:summary="@string/proximity_wake_summary"
@@ -234,7 +234,7 @@
             android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
             settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.devolution.settings.preference.SystemSettingSwitchPreference
             android:key="high_touch_polling_rate_enable"
             android:title="@string/high_touch_polling_rate_title"
             android:summary="@string/high_touch_polling_rate_summary"
@@ -247,13 +247,13 @@
             android:summary="@string/touch_polling_summary"
             settings:controller="com.android.settings.display.TouchPollingPreferenceController" />
 
-        <com.evolution.settings.preference.GlobalSettingSwitchPreference
+        <com.devolution.settings.preference.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
             android:title="@string/wake_when_plugged_or_unplugged_title"
             android:summary="@string/wake_when_plugged_or_unplugged_summary"
             android:defaultValue="@*android:bool/config_unplugTurnsOnScreen" />
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.devolution.settings.preference.SystemSettingSwitchPreference
             android:key="high_touch_sensitivity_enable"
             android:title="@string/high_touch_sensitivity_title"
             android:summary="@string/high_touch_sensitivity_summary"

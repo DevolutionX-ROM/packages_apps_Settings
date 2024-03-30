@@ -36,7 +36,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import com.android.internal.util.evolution.EvolutionUtils;
+import com.android.internal.util.devolution.DevolutionUtils;
 
 import com.android.settings.core.BasePreferenceController;
 
@@ -133,7 +133,7 @@ public class CustomScreenResolutionController extends BasePreferenceController i
                         + switchMode.getPhysicalHeight());
 
         mDisplay.setUserPreferredDisplayMode(switchMode);
-        EvolutionUtils.restartProcess(mContext, "com.android.systemui");
+        DevolutionUtils.restartProcess(mContext, "com.android.systemui");
         return true;
     }
 

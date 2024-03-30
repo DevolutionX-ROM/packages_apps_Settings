@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2019 The LineageOS Project
- *               2019-2022 Evolution X
+ *               2019-2022 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -37,19 +37,19 @@ import com.android.settings.slices.Sliceable;
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 
-public class EvolutionXVersionDetailPreferenceController extends BasePreferenceController {
+public class DevolutionXVersionDetailPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "evolutionXVersionDialogCtrl";
+    private static final String TAG = "devolutionXVersionDialogCtrl";
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
-    private static final String KEY_EVOLUTION_BUILD_VERSION_PROP = "org.evolution.build_version";
-    private static final String KEY_EVOLUTION_CODENAME_PROP = "org.evolution.build_codename";
-    private static final String KEY_EVOLUTION_DEVICE_PROP = "org.evolution.device";
-    private static final String KEY_EVOLUTION_RELEASE_TYPE_PROP = "org.evolution.build_type";
-    private static final String KEY_EVOLUTION_VERSION_PROP = "org.evolution.version.display";
+    private static final String KEY_EVOLUTION_BUILD_VERSION_PROP = "org.devolution.build_version";
+    private static final String KEY_EVOLUTION_CODENAME_PROP = "org.devolution.build_codename";
+    private static final String KEY_EVOLUTION_DEVICE_PROP = "org.devolution.device";
+    private static final String KEY_EVOLUTION_RELEASE_TYPE_PROP = "org.devolution.build_type";
+    private static final String KEY_EVOLUTION_VERSION_PROP = "org.devolution.version.display";
 
-    private static final String PLATLOGO_PACKAGE_NAME = "org.evolution.easteregg";
+    private static final String PLATLOGO_PACKAGE_NAME = "org.devolution.easteregg";
     private static final String PLATLOGO_ACTIVITY_CLASS =
             PLATLOGO_PACKAGE_NAME + ".EasterEgg";
 
@@ -60,7 +60,7 @@ public class EvolutionXVersionDetailPreferenceController extends BasePreferenceC
     private boolean mFunDisallowedBySystem;
     private boolean fullRomVersion = false;
 
-    public EvolutionXVersionDetailPreferenceController(Context context, String key) {
+    public DevolutionXVersionDetailPreferenceController(Context context, String key) {
         super(context, key);
         mUserManager = (UserManager) mContext.getSystemService(Context.USER_SERVICE);
         initializeAdminPermissions();

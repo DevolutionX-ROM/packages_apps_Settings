@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.evolution.notificationlight;
+package com.android.settings.devolution.notificationlight;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -47,13 +47,13 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 
-import com.android.internal.evolution.notification.LedValues;
-import com.android.internal.evolution.notification.LightsCapabilities;
-import com.android.internal.evolution.notification.LineageNotification;
+import com.android.internal.devolution.notification.LedValues;
+import com.android.internal.devolution.notification.LightsCapabilities;
+import com.android.internal.devolution.notification.LineageNotification;
 import com.android.settings.R;
 
-import com.evolution.settings.preference.colorpicker.ColorPanelView;
-import com.evolution.settings.preference.colorpicker.ColorPickerView;
+import com.devolution.settings.preference.colorpicker.ColorPanelView;
+import com.devolution.settings.preference.colorpicker.ColorPickerView;
 
 import java.util.ArrayList;
 import java.util.Locale;
